@@ -12,7 +12,9 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "gatsby": "^5.10.0",
@@ -22,6 +24,22 @@
     "gatsby-source-filesystem": "^5.10.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "sass": "^1.62.1"
+    "sass": "^1.62.1",
+    "storybook-addon-preview": "^2.3.0"
+  },
+  "devDependencies": {
+    "@storybook/addons": "^7.0.18",
+        "@storybook/api": "^7.0.18",
+        "@storybook/components": "^7.0.18",
+        "typescript": "^5.0.4",
+    "@storybook/addon-essentials": "^7.0.18",
+    "@storybook/addon-interactions": "^7.0.18",
+    "@storybook/addon-links": "^7.0.18",
+    "@storybook/blocks": "^7.0.18",
+    "@storybook/react": "^7.0.18",
+    "@storybook/react-vite": "^7.0.18",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "prop-types": "^15.8.1",
+    "storybook": "^7.0.18"
   }
 }
